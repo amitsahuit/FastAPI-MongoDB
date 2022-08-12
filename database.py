@@ -5,10 +5,10 @@ import motor.motor_asyncio
 from model import Todo
 
 #localhost
-#client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017/')
+client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017/')
 
 #cloud
-client = motor.motor_asyncio.AsyncIOMotorClient('mongodb+srv://amit:amit@todolist.lwjuyzf.mongodb.net')
+#client = motor.motor_asyncio.AsyncIOMotorClient('mongodb+srv://amit:<<password>>@todolist.lwjuyzf.mongodb.net')
 database = client.TodoList
 collection = database.todo
 
