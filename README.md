@@ -5,7 +5,14 @@
 $ git clone https://github.com/amitsahuit/FastAPI-MongoDB.git
 ```
 
-### make sure u have installed MongoDB in localhost and able to connect form compass. In my case MongoDB url is ""
+### make sure u have installed MongoDB in localhost and able to connect form compass. In my case MongoDB url is :
+```
+#localhost
+mongodb://localhost:27017/
+
+#cloud
+mongodb+srv://amit:<<password>>@todolist.lwjuyzf.mongodb.net
+```
 
 ## installing dependencies and starting FastAPIapp
 ```
